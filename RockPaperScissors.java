@@ -39,7 +39,7 @@ public class RockPaperScissors {
                 default: return " "; 
             }
         }
-        // need to fix this
+       
         public static String result(String yourChoice, String computerChoice) {
             String result = " ";
             if (yourChoice.equals("rock") && computerChoice.equals("scissors")) {
